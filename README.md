@@ -1,2 +1,2 @@
 # Tchouanga12.github.io
-My personal portfolio website.
+The data gig
