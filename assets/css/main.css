@@ -5128,7 +5128,7 @@ a img {
 
 /* testing container */
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     background: white;
     padding: 20px;
     border-radius: 8px;
