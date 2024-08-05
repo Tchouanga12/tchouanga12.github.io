@@ -15,14 +15,6 @@ body {
     line-height: 1.5;
     color: #555;
     font-family: 'Nunito Sans', sans-serif;
-    /* testing container */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4
 }
 
 article,
@@ -5136,7 +5128,7 @@ a img {
 
 /* testing container */
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     background: white;
     padding: 20px;
     border-radius: 8px;
