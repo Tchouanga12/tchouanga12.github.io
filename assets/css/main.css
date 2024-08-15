@@ -5194,9 +5194,8 @@ a img {
   }
   
   /* Responsive design */
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
     .btn {
-      width: 100%;  /* Full width on small screens */
-      box-sizing: border-box;
+      flex: 1 1 100%;  /* Full width on small screens */
     }
   }
