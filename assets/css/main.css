@@ -5174,11 +5174,11 @@ a img {
     color: #666;
   }
   
-  /* Button styling */
+/* Button styling */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 8px 16px;  /* Reduced padding for smaller buttons */
+    font-size: 0.9em;  /* Slightly smaller font size */
     color: #fff;
     background-color: #007acc;
     border: none;
@@ -5186,9 +5186,17 @@ a img {
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease;
+    margin: 5px;  /* Space between buttons */
   }
   
   .btn:hover {
     background-color: #005f99;
   }
   
+  /* Responsive design */
+@media (max-width: 600px) {
+    .btn {
+      width: 100%;  /* Full width on small screens */
+      box-sizing: border-box;
+    }
+  }
