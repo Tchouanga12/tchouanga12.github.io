@@ -4992,8 +4992,6 @@ a img {
 /* Reduce the size of headings for each tool cited */
 .tech h2 {
     font-size: 1.5em; /* Adjust this value as needed */
-    font-weight: bold;
-    color: #333;
   }
 
 .user {
