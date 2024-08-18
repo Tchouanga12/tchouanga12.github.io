@@ -4989,11 +4989,6 @@ a img {
     margin: 10px
 }
 
-/* Reduce the size of headings for each tool cited */
-.tech h2 {
-    font-size: 1.5em; /* Adjust this value as needed */
-  }
-
 .user {
     text-align: center;
     font-size: 60px;
