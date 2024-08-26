@@ -38,8 +38,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Feel free to reach out if you have any questions or suggestions! You can contact me via:
 
-- **Email**: (mailto:ftchouanga@gmail.com)
-- **LinkedIn**: [[Your LinkedIn Profile](https://www.linkedin.com/in/tchouanga-franck-ai/)]
+- **Email**: [ftchouanga@gmail.com](mailto:ftchouanga@gmail.com)
+- **LinkedIn**: [[Tchouanga franck-ai](https://www.linkedin.com/in/tchouanga-franck-ai/)]
 
 ---
 
