@@ -1,4 +1,4 @@
-# Tchouanga12.github.io
+# My portfolio
 
 Welcome to the repository for my personal GitHub Pages website! This project hosts the source code for my personal website, built with HTML, CSS, and JavaScript.
 
