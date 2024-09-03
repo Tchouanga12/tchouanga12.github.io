@@ -4,6 +4,8 @@ Welcome to the repository for my personal GitHub Pages website! This project hos
 
 ## 🌐 Live Demo
 
+<img src="assets/img/portfolio_intro.png" alt="Sample Image" width="400"/>
+
 You can visit the live version of the website here: [tchouanga12.github.io](https://tchouanga12.github.io/)
 
 ## 📂 Project Structure
