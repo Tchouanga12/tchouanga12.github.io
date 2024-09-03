@@ -1,8 +1,10 @@
-# Tchouanga12.github.io
+# My portfolio
 
 Welcome to the repository for my personal GitHub Pages website! This project hosts the source code for my personal website, built with HTML, CSS, and JavaScript.
 
 ## 🌐 Live Demo
+
+<img src="assets/img/portfolio_intro.png" alt="Sample Image" width="900"/>
 
 You can visit the live version of the website here: [tchouanga12.github.io](https://tchouanga12.github.io/)
 
