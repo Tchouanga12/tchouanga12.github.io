@@ -5199,3 +5199,51 @@ a img {
       flex: 1 1 100%;  /* Full width on small screens */
     }
   }
+
+
+  /* Trainer Experience Section Styling */
+#trainer-experience {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #trainer-experience h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .trainer-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .trainer-entry {
+    margin-bottom: 30px;
+  }
+  
+  .trainer-entry h3 {
+    font-size: 1.75em;
+    margin-bottom: 5px;
+    color: #007acc;
+  }
+  
+  .trainer-entry p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .skills-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .skills-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
