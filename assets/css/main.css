@@ -5247,66 +5247,48 @@ a img {
     color: #333;
   }
   
-  /* Carousel container */
-.carousel-container {
-    position: relative;
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  #lecturing {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: left;
 }
 
-/* Carousel slide */
-.carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.lecturing-details h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-/* Each lecturing entry */
 .lecturing-entry {
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-/* School logos */
 .school-logo {
     width: 100px;
     height: auto;
     margin-right: 20px;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation arrows */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: #333;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+.lecturing-content {
+    flex-grow: 1;
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.lecturing-content h2 {
+    font-size: 1.8rem;
+    color: #000;
+    margin: 0 0 10px 0;
 }
 
-.prev {
-    left: 0;
+.lecturing-content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
 }
 
-/* Hover effect on arrows */
-.prev:hover, .next:hover {
-    background-color: #ddd;
+.lecturing-content p b {
+    color: #000;
 }
