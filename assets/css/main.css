@@ -5250,45 +5250,51 @@ a img {
   #lecturing {
     padding: 50px 20px;
     background-color: #f9f9f9;
-    text-align: left;
+    text-align: center;
 }
 
 .lecturing-details h1 {
     font-size: 2.5rem;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.lecturing-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .lecturing-entry {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    text-align: left;
 }
 
 .school-logo {
-    width: 100px;
+    width: 80px;
     height: auto;
-    margin-right: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.lecturing-content {
-    flex-grow: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lecturing-content h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #000;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .lecturing-content p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #555;
-    margin: 5px 0;
-}
-
-.lecturing-content p b {
-    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
 }
