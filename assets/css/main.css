@@ -5253,13 +5253,13 @@ a img {
     padding: 50px;
     background-color: #f9f9f9;
   }
-  /*
+
   .lectures-details h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-  */
+
   .lectures-details {
     display: flex;
     flex-wrap: wrap; /* Ensures content wraps if screen is smaller */
@@ -5271,7 +5271,7 @@ a img {
     flex-direction: column;
     align-items: center;
     margin: 20px; /* Space between the items */
-    width: 200px; /* Set a fixed width for the entries */
+    width: 100px; /* Set a fixed width for the entries */
   }
   
   .school-logo {
