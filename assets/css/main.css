@@ -5253,13 +5253,13 @@ a img {
     padding: 50px;
     background-color: #f9f9f9;
   }
-  
+  /*
   .lectures-details h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-  
+  */
   .lectures-details {
     display: flex;
     flex-wrap: wrap; /* Ensures content wraps if screen is smaller */
