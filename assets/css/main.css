@@ -5224,9 +5224,9 @@ a img {
   }
 
   .lectures-details h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
   }
 
   .lectures-details {
