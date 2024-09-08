@@ -5222,17 +5222,18 @@ a img {
     padding: 50px;
     background-color: #f9f9f9;
   }
-
+  
   .lectures-details h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
   }
-
+  
+  /* Flexbox only for the lecture entries */
   .lectures-details {
     display: flex;
-    flex-wrap: wrap; /* Ensures content wraps if screen is smaller */
-    justify-content: center; /* Aligns the items in the center */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center the logos horizontally */
   }
   
   .lecture-entry {
@@ -5240,7 +5241,7 @@ a img {
     flex-direction: column;
     align-items: center;
     margin: 20px; /* Space between the items */
-    width: 200px; /* Set a fixed width for the entries */
+    width: 200px; /* Set a consistent width for each entry */
   }
   
   .school-logo {
