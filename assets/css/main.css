@@ -5253,6 +5253,13 @@ a img {
   .lecture-entry p {
     font-size: 1.2rem;
     text-align: center;
+    color: #007acc;
+  }
+
+  .lecture-entry h3 {
+    font-size: 1.75em;
+    margin-bottom: 5px;
+    color: #007acc;
   }
   
   .project-cards {
