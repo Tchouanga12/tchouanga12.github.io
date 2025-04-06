@@ -40,21 +40,26 @@
           <span class="site-description">(3 ans EXP)</span>
         </h1>
         <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/tchouanga-franck-ai/">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/tchouanga-franck-ai/" class="tooltip">
             <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+            <span class="tooltip-text">Profil LinkedIn</span>
           </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Tchouanga12">
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Tchouanga12" class="tooltip">
             <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+            <span class="tooltip-text">Profil GitHub</span>
           </a>
-          <a aria-label="My ResearchGate Profile" target="_blank" href="https://www.researchgate.net/profile/Tchouanga-Franck">
+          <a aria-label="My ResearchGate Profile" target="_blank" href="https://www.researchgate.net/profile/Tchouanga-Franck" class="tooltip">
             <i class="icon fab fa-researchgate" aria-hidden="true"></i>
+            <span class="tooltip-text">Profil ResearchGate</span>
           </a>
-          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1sU3ggbY7UtQJMHygndRMt72HrZCbgLth/view?usp=sharing">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1sU3ggbY7UtQJMHygndRMt72HrZCbgLth/view?usp=sharing" class="tooltip">
+            <i class="icon fa fa-file-pdf-o" aria-hidden="true"></i>
+            <span class="tooltip-text">Voir le CV</span>
           </a>
-          <a aria-label="Send Email" href="mailto:ftchouanga@gmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
+          <a aria-label="Send Email" href="mailto:ftchouanga@gmail.com" target="_blank" class="tooltip">
+            <i class="icon fa fa-envelope"></i>
+            <span class="tooltip-text">Envoyer un e-mail</span>
+          </a>
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>À propos de moi</a>
@@ -356,6 +361,37 @@
     <script src="./assets/js/google-analytics.js"></script>
     <!-- Import JS: Main Script -->
     <script src="./assets/js/main.js"></script>
+    <style>
+      /* Tooltip container */
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Tooltip text */
+      .tooltip-text {
+        visibility: hidden;
+        width: 120px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        bottom: 125%; /* Position above the icon */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      /* Show tooltip on hover */
+      .tooltip:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
   </body>
 </html>
 <!-- track file update -->
