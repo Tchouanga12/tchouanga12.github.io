@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "github.copilot-chat"
+    ],
+    
+    "editor.minimap.maxColumn": 100,
+    "editor.wrappingIndent": "indent",
+    "github.copilot.enable": {
+        "scminput": true,
+        "markdown": true,
+        "plaintext": true
+    },
+    "github.copilot.advanced": {
+        
+
+    }
+}
