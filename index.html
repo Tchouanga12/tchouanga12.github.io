@@ -176,23 +176,26 @@
           </div>
         </div>
         <!-- Ecema experience -->
-        <div class="lecture-card">
-          <div class="lecture-header">
-            <img src="./assets/img/png/ecema.png" width="60" height="60" alt="Ecema Logo" class="company-logo"/>
-            <div>
-              <h3>Ecema</h3>
-              <span class="exp-period">2023 - 2024</span>
+        <a href="https://app.collective.work/collective/franck-stephane-tchouanga-tchatchouang/profile/portfolio/cmajnafpe0e00da5svcgdpko8" target="_blank" class="card-link">
+          <div class="lecture-card tooltip">
+            <div class="lecture-header">
+              <img src="./assets/img/png/ecema.png" width="60" height="60" alt="Ecema Logo" class="company-logo"/>
+              <div>
+                <h3>Ecema</h3>
+                <span class="exp-period">2023 - 2024</span>
+              </div>
             </div>
+            <div class="lecture-body">
+              <span class="exp-role">Formateur et animateur en audit et contrôle des données</span>
+              <ul>
+                <li>Formé plus de 10 étudiants sur tous les aspects de la cybersécurité des données.</li>
+                <li>Animé et formé des étudiants de M1 sur les éléments théoriques et pratiques de la sécurisation des données.</li>
+                <li>Organisé des sessions de formation en ligne et corrigé les copies d'examens de fin d'année de plus de 10 étudiants de Master 1.</li>
+              </ul>
+            </div>
+            <span class="tooltip-text">Cliquez pour consulter la réalisation effectuée</span>
           </div>
-          <div class="lecture-body">
-            <span class="exp-role">Formateur et animateur en audit et contrôle des données</span>
-            <ul>
-              <li>Formé plus de 10 étudiants sur tous les aspects de la cybersécurité des données.</li>
-              <li>Animé et formé des étudiants de M1 sur les éléments théoriques et pratiques de la sécurisation des données.</li>
-              <li>Organisé des sessions de formation en ligne et corrigé les copies d'examens de fin d'année de plus de 10 étudiants de Master 1.</li>
-            </ul>
-          </div>
-        </div>
+        </a>
         <!-- Aivancity experience -->
         <div class="lecture-card">
           <div class="lecture-header">
@@ -415,25 +418,29 @@
       /* Tooltip text */
       .tooltip-text {
         visibility: hidden;
-        width: 120px;
-        background-color: #333;
-        color: #fff;
+        width: 160px;
+        background-color: #fff; /* White background */
+        color: #000; /* Black text */
         text-align: center;
         border-radius: 5px;
-        padding: 5px;
+        padding: 8px;
         position: absolute;
-        bottom: 125%; /* Position above the icon */
+        top: -50px; /* Position above the card */
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
         opacity: 0;
-        transition: opacity 0.3s;
+        transition: opacity 0.3s, transform 0.3s;
+        font-size: 0.9rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+        border: 1px solid #ddd; /* Light border for definition */
       }
 
       /* Show tooltip on hover */
       .tooltip:hover .tooltip-text {
         visibility: visible;
         opacity: 1;
+        transform: translateX(-50%) translateY(-5px); /* Slight upward animation */
       }
       .exp-title {
   text-align: center;
@@ -502,6 +509,41 @@
 .lecture-body li {
   margin-bottom: 0.4rem;
   line-height: 1.5;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-text {
+  visibility: hidden;
+  width: 140px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: -40px; /* Position above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.9rem;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+.lecture-card:hover {
+  transform: translateY(-8px) scale(1.025);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-color: #007bff33;
 }
 @media (max-width: 600px) {
   .lectures-grid {
