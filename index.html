@@ -38,12 +38,16 @@
           <span class="site-title">TCHOUANGA FRANCK</span>
           <span class="site-description">Certifié MICROSOFT</span>
           <span class="site-description">Développeur • Data analyst/scientist • Formateur(NDA)</span>
-          <span class="site-description">(3 ans EXP) </span>
+          <span class="site-description">(3+ ans EXP) </span>
         </h1>
         <div class="header-icons">
           <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/tchouanga-franck-ai/" class="tooltip">
             <i class="icon fa fa-linkedin" aria-hidden="true"></i>
             <span class="tooltip-text">Profil LinkedIn</span>
+          </a>
+          <a aria-label="My YouTube Channel" target="_blank" href="https://www.youtube.com/@franck.formation" class="tooltip">
+            <i class="icon fa fa-youtube-play" aria-hidden="true"></i>
+            <span class="tooltip-text">Ma Chaine Youtube</span>
           </a>
           <a aria-label="My Github Profile" target="_blank" href="https://github.com/Tchouanga12" class="tooltip">
             <i class="icon fa fa-github-alt" aria-hidden="true"></i>
@@ -308,7 +312,23 @@
             </div>
           <span class="tooltip-text">Cliquez ici pour en savoir plus sur le plan de formation.</span>
           </div>
+        </a>
 
+        <!-- Course Card 2: Formation YouTube -->
+        <div class="lecture-card tooltip">
+          <div class="lecture-header">
+            <div>
+              <h3>Formation en apprentissage automatique</h3>
+              <span class="exp-period">Accessible en ligne sur YouTube
+                <br><br> <b>Contenu :</b> Découvrez les bases nécessaires, sous forme d’un résumé rapide, pour entraîner un algorithme de machine learning.
+                <br> Parfait pour les débutants et les professionnels souhaitant améliorer leurs compétences.</span>
+            </div>
+          </div>
+
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-top: 0.8rem;">
+              <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 8px;" src="https://www.youtube.com/embed/Z9MLx_igdDI" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
@@ -575,6 +595,12 @@
   cursor: pointer;
   border: 1px solid #f0f0f0;
 }
+.lecture-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 0.8rem;
+}
 .lecture-card:hover {
   transform: translateY(-8px) scale(1.025);
   box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
@@ -649,14 +675,81 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
   border-color: #007bff33;
 }
+/* Responsive styles for course cards */
+@media (max-width: 900px) {
+  .lectures-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .lecture-card {
+    padding: 1.2rem 1rem;
+  }
+}
+
 @media (max-width: 600px) {
   .lectures-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+    padding: 0 0.5rem;
   }
   .lecture-card {
     min-height: unset;
     padding: 1rem 0.7rem;
+    border-radius: 12px;
+  }
+  .lecture-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.7rem;
+  }
+  .company-logo {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .lecture-card h3 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .exp-period {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  .exp-role {
+    font-size: 0.95rem;
+  }
+  .lecture-body ul {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+  .lecture-body li {
+    margin-bottom: 0.3rem;
+  }
+  .lecture-card img:not(.company-logo) {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .lectures-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding: 0 0.3rem;
+  }
+  .lecture-card {
+    padding: 0.8rem 0.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  .lecture-card h3 {
+    font-size: 1rem;
+  }
+  .exp-period {
+    font-size: 0.8rem;
+  }
+  .lecture-body ul {
+    font-size: 0.85rem;
+    margin-left: 0.9rem;
   }
 }
     </style>
